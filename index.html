@@ -111,6 +111,57 @@
     -ms-flex-item-align: auto;
     align-self: auto;
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .flex-container-inline {
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    }
+
+.flex-item-inline {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
 
     .mobile-card {}
   </style>
@@ -123,6 +174,16 @@
             </div>
             <div class="flex-item">
               Coming <i> very </i> soon.
+            </div>
+            <div class="flex-item">
+              <div class="flex-container-inline">
+                <div class="flex-item-inline">
+                  fb
+                </div>
+                <div class="flex-item-inline">
+                  ig
+                </div>
+              </div>
             </div>
           </div>
     </div>
