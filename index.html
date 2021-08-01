@@ -167,6 +167,11 @@
     .social-logo {
       width: 7%;
     }
+    
+    .grow { transition: all .2s ease-in-out; }
+    
+    .grow:hover { transform: scale(1.1); }
+
   </style>
 </head 
     <div class="desktop-card">
@@ -181,10 +186,10 @@
             <div class="flex-item">
               <div class="flex-container-inline">
                 <div class="flex-item-inline">
-                  <img class="social-logo" src="fb.png">
+                  <img class="social-logo grow" src="fb.png">
                 </div>
                 <div class="flex-item-inline">
-                  <img class="social-logo" src="ig.png">
+                  <img class="social-logo grow:hover" src="ig.png">
                 </div>
               </div>
             </div>
